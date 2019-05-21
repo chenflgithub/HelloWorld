@@ -48,8 +48,8 @@ namespace HelloWorld3
 
             app.UseStaticFiles();
             app.UseCookiePolicy();
-            //temp test add
-            app.UseAuthentication();
+            ////temp test add
+            //app.UseAuthentication();
 
             app.UseMvc(routes =>
             {
